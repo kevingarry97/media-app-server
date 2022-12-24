@@ -1,0 +1,7 @@
+{
+    "jwtPrivatekey": "media_jwtPrivatekey",
+    "db": "mediaApp_db",
+    "fromEmail": "fromEmail",
+    "sendgridApiKey": "sendgridApiKey"
+  }
+  

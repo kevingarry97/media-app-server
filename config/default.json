@@ -1,0 +1,6 @@
+{
+    "jwtPrivatekey": "",
+    "db": "mongodb+srv://kevin_garry:Abcd123@cluster0.ndrrj.mongodb.net/mediaApp?retryWrites=true&w=majority",
+    "fromEmail": "kevingarry97@gmail.com",
+    "sendgridApiKey": ""
+}  
