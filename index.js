@@ -10,6 +10,7 @@ const db = require('./db/db');
 const userRoutes = require('./routes/users');
 const postRoutes = require('./routes/posts');
 const likedPostRoutes = require('./routes/likedPosts');
+const votedPostRoutes = require('./routes/votedPosts');
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use(helmet());
 app.use('/api', userRoutes);
 app.use('/api', postRoutes);
 app.use('/api', likedPostRoutes);
+app.use('/api', votedPostRoutes);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`Listening to Port ${port} successfully`));
